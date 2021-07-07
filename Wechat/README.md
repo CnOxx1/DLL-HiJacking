@@ -4,20 +4,27 @@ demonstration
 
 For example:
 
-`////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////`
+``
 `BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)`
 `{`
+	
 	`if (dwReason == DLL_PROCESS_ATTACH)`
+	
 	`{`
+	
 		`DisableThreadLibraryCalls(hModule);`
 		`MessageBox(NULL, (LPCTSTR)TEXT("1"), (LPCTSTR)TEXT("1"), MB_OK);`
+		
 	`}`
+	
 	`else if (dwReason == DLL_PROCESS_DETACH)`
+	
 	`{`
 
 
 
 `}`
+
 `return TRUE;`
 
 `}`
