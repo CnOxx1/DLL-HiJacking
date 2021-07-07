@@ -5,7 +5,7 @@
 For example:
 
 
-`BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
+<h3>BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 {
 	if (dwReason == DLL_PROCESS_ATTACH)
 	{
@@ -17,7 +17,7 @@ For example:
 
 	}
 	return TRUE;
-}`
+}</h3>
 
 #You can define any code and shellcode to execute in the DLL's entry function!!
 
