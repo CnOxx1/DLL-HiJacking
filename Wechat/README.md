@@ -3,9 +3,8 @@
 #demonstration
 
 For example:
-
-
-<h3>BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
+`
+BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 {
 	if (dwReason == DLL_PROCESS_ATTACH)
 	{
@@ -17,8 +16,8 @@ For example:
 
 	}
 	return TRUE;
-}</h3>
-
+}
+`
 #You can define any code and shellcode to execute in the DLL's entry function!!
 
 #Very simple, we can be used for rights protection or phishing!!!
